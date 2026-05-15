@@ -3,7 +3,7 @@ Set-Content -Path 'c:\Users\Dylan L'Heureux\Documents\GitHub\VS-Code-DL\.vscode\
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Dylan L'Heureux | Portfolio</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -60,7 +60,50 @@ Set-Content -Path 'c:\Users\Dylan L'Heureux\Documents\GitHub\VS-Code-DL\.vscode\
             font-size: 1.1rem;
             color: #cbd5e1;
             max-width: 720px;
-            margin: 0 auto;
+            margin: 0 auto 1.5rem;
+        }
+        .intro {
+            font-size: 1.05rem;
+            max-width: 780px;
+            margin: 0 auto 1.5rem;
+            color: #e2e8f0;
+        }
+        .hero-details {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            color: #f8fafc;
+            font-weight: 600;
+        }
+        .hero-details span {
+            background: rgba(56, 189, 248, 0.15);
+            padding: 0.8rem 1rem;
+            border-radius: 999px;
+            color: #bae6fd;
+        }
+        .section-meta {
+            color: #cbd5e1;
+            font-size: 0.95rem;
+            margin: 0.5rem 0 1rem;
+        }
+        .resume-item {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid rgba(148, 163, 184, 0.15);
+        }
+        .resume-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .resume-item h4 {
+            margin: 0 0 0.4rem;
+            color: #f8fafc;
+            font-size: 1.1rem;
+        }
+        .resume-item p {
+            margin: 0.5rem 0;
         }
         section {
             background: rgba(15, 23, 42, 0.92);
@@ -103,35 +146,96 @@ Set-Content -Path 'c:\Users\Dylan L'Heureux\Documents\GitHub\VS-Code-DL\.vscode\
 </head>
 <body>
     <header>
-        <h1>Your Name</h1>
+        <h1>Dylan L'Heureux</h1>
         <nav>
             <a href="#hero">Home</a>
             <a href="#about">About</a>
+            <a href="#education">Education</a>
             <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#volunteering">Volunteering</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
     <main class="container">
         <section id="hero" class="hero">
-            <h2>Welcome to my portfolio</h2>
-            <p>Hello! I am excited to share my work and skills in data science, machine learning, and analytics.</p>
+            <h2>Resume of Dylan L'Heureux</h2>
+            <p class="intro">I am a hard-working, stable, religious young man whose faith has grounded me and helps me be the best person I can be. I don't give up when faced with problems or tough tasks, and I am always ready to grow through new responsibilities and challenges.</p>
+            <div class="hero-details">
+                <span>484-994-1193</span>
+                <span>dlheureux018@gmail.com</span>
+                <span>Collegeville, PA</span>
+            </div>
         </section>
 
         <section id="about">
             <h3>About Me</h3>
-            <p>I am passionate about turning data into insights and building models that solve real-world problems. I enjoy exploring datasets, creating visualizations, and collaborating on projects that drive meaningful results.</p>
+            <p>I am a dedicated worker who values faith, stability, and personal growth. I enjoy working with youth, believe I can learn from them while I teach them, and take pride in staying attentive, respectful, and dependable in every role.</p>
+        </section>
+
+        <section id="education">
+            <h3>Education</h3>
+            <div class="resume-item">
+                <h4>High School Diploma</h4>
+                <p class="section-meta">Perkiomen Valley High School — Collegeville, PA | June 2019</p>
+            </div>
+            <div class="resume-item">
+                <h4>Montgomery County Community College</h4>
+                <p class="section-meta">Collegeville, PA | August 2019 - May 2020, January 2025 - October 2025</p>
+            </div>
         </section>
 
         <section id="skills">
             <h3>Skills</h3>
             <ul class="skills-list">
-                <li>Python</li>
-                <li>Machine Learning</li>
-                <li>Data Visualization</li>
-                <li>Statistics</li>
-                <li>SQL</li>
-                <li>Deep Learning</li>
+                <li>Leadership</li>
+                <li>Communication</li>
+                <li>Patience</li>
+                <li>Problem Solving</li>
+                <li>Grit</li>
+                <li>Multi-tasking</li>
+                <li>Musician</li>
             </ul>
+        </section>
+
+        <section id="experience">
+            <h3>Work Experience</h3>
+            <div class="resume-item">
+                <h4>Server / Host / Busser</h4>
+                <p class="section-meta">Shannondell — Audubon, PA | September 2018 - February 2020</p>
+                <p>I showed respect and hospitality to guests, worked closely with coworkers to deliver excellent service, fulfilled orders accurately and on time, and supported server leadership with table assignments and guest attention.</p>
+            </div>
+            <div class="resume-item">
+                <h4>Lifeguard / Swim Instructor / Lifeguard Instructor</h4>
+                <p class="section-meta">Perkiomen Valley School District — Collegeville, PA | September 2018 - February 2022, August 2024 - May 2025</p>
+                <p>I taught swimming fundamentals to children, including lessons for youth with ADHD and autism, maintained vigilant safety coverage, stayed current on training, and led training and certification for other lifeguards.</p>
+            </div>
+            <div class="resume-item">
+                <h4>Server / Togo Specialist / Cook / Dishwasher / Server Trainer / Shipment Organizer / Bartender / Culinary Professional</h4>
+                <p class="section-meta">Olive Garden — Collegeville, PA | February 2020 - February 2022, July 2024 - October 2025</p>
+                <p>I refined restaurant service, adapted work during COVID, managed phone orders and to-go service, prepared food to FDA standards, organized shipments and inventory, and trained teammates across multiple positions.</p>
+            </div>
+            <div class="resume-item">
+                <h4>Installer</h4>
+                <p class="section-meta">My Custom Closet — Collegeville, PA | July 2024 - October 2025</p>
+                <p>I transitioned into installation work, using hospitality and physical skills to design, order, and install complex closet systems for detail-oriented clients while solving on-site challenges quickly and carefully.</p>
+            </div>
+        </section>
+
+        <section id="volunteering">
+            <h3>Volunteering</h3>
+            <div class="resume-item">
+                <h4>Mission for the Church of Jesus Christ of Latter-day Saints</h4>
+                <p class="section-meta">Farmington, NM | February 2022 - February 2024</p>
+                <p>I served the Navajo nation, made and kept appointments, addressed questions, and helped build testimonies of Jesus Christ. I also performed physical service by chopping wood, preparing gardens, building homes, teaching seminary, tutoring students, and launching youth programs.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h3>Contact</h3>
+            <p><strong>Phone:</strong> 484-994-1193</p>
+            <p><strong>Email:</strong> dlheureux018@gmail.com</p>
         </section>
     </main>
 </body>
