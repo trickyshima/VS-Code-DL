@@ -1,8 +1,8 @@
+import random
 print('Hello, world!')
 print('Welcome to Python programming.')
 print('Happy coding!')
 
-import random
 
 greetings = [
     "Hello, Git!",
@@ -12,8 +12,10 @@ greetings = [
     "Happy coding!"
 ]
 
+
 def get_random_greeting():
     return random.choice(greetings)
+
 
 print(get_random_greeting())
 print("Learning about branches today!")
